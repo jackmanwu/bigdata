@@ -49,7 +49,7 @@ public class WordCount {
         Configuration conf = new Configuration();
         conf.set("fs.default.name","hdfs://master:9000");
         conf.set("mapreduce.app-submission.cross-platform", "true");
-        conf.set("mapred.jar", "E:\\JackManWu\\hadoo-ptest\\target\\hadoop-test-1.0-SNAPSHOT.jar");
+        conf.set("mapred.jar", "E:\\JackManWu\\bigdata\\bigdata-hadoop\\target\\bigdata-hadoop-1.0-SNAPSHOT.jar");
         conf.set("fs.hdfs.impl", org.apache.hadoop.hdfs.DistributedFileSystem.class.getName());
         Job job = Job.getInstance(conf, "wordcount");
         job.setJarByClass(WordCount.class);
