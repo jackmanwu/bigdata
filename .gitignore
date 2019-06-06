@@ -1,6 +1,4 @@
 *.iml
 .idea
-bigdata-hadoop/*.iml
-bigdata-hadoop/target
-bigdata-hive/*.iml
-bigdata-hive/target
+*/target
+*/*.iml

@@ -11,6 +11,7 @@
     <modules>
         <module>bigdata-hadoop</module>
         <module>bigdata-hive</module>
+        <module>bigdata-hbase</module>
     </modules>
 
 
